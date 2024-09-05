@@ -42,7 +42,6 @@ const About = () => {
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
-              
             </div>
           ))}
         </div>
@@ -52,8 +51,12 @@ const About = () => {
         <h3 className="subhead-text">Education</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of projects, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I have a Bachelor of Computer Applications (BCA) degree, which
+            provided you with a strong foundation in computer science,
+            programming, and software development. Through this program, you
+            gained proficiency in various programming languages and
+            technologies, equipping you with the skills to work in software
+            development, web development, and IT services.
           </p>
         </div>
 
