@@ -13,8 +13,20 @@ import {
   react,
   redux,
   summiz,
+  docs, 
   tailwindcss,
   typescript,
+   python,
+   c,
+   cas,
+   postgresql,
+   reactNative,
+   firebase,
+   bootstrap,
+   hospital,
+   expo,
+   gmail,
+   developerTools,
 } from "../assets/icons";
 
 export const skills = [
@@ -38,6 +50,7 @@ export const skills = [
     name: "GitHub",
     type: "Version Control",
   },
+
   {
     imageUrl: html,
     name: "HTML",
@@ -47,6 +60,12 @@ export const skills = [
     imageUrl: javascript,
     name: "JavaScript",
     type: "Frontend",
+  },
+
+  {
+    imageUrl: postgresql,
+    name: "PostgreSQL",
+    type: "Database",
   },
   {
     imageUrl: mongodb,
@@ -70,6 +89,21 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: reactNative,
+    name: "React Native",
+    type: "App Development",
+  },
+  {
+    imageUrl: expo,
+    name: "Expo-Go",
+    type: "App Development",
+  },
+  {
+    imageUrl: firebase,
+    name: "Firebase",
+    type: "Cloud Platform",
+  },
+  {
     imageUrl: redux,
     name: "Redux",
     type: "State Management",
@@ -80,9 +114,30 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
+  {
     imageUrl: typescript,
     name: "TypeScript",
     type: "Frontend",
+  },
+
+  {
+    imageUrl: python,
+    name: "python",
+    type: "Programming Language",
+  },
+  {
+    imageUrl: c,
+    name: "C",
+    type: "Programming Language",
+  },
+  {
+    imageUrl: cas,
+    name: "C#",
+    type: "Programming Language",
   },
 ];
 
@@ -90,7 +145,7 @@ export const experiences = [
   {
     title: "JP College of Arts & Sciences",
     company_name: "Bachalor of Computer Applications",
-    icon: logo,
+    icon: developerTools,
     iconBg: "#accbe1",
     date: " 2021 - 2024",
     points: [
@@ -100,7 +155,7 @@ export const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "London AppBrewary",
-    icon: logo,
+    icon: developerTools,
     iconBg: "#accbe1",
     date: "2021 - 2022",
     points: [
@@ -110,17 +165,18 @@ export const experiences = [
   {
     title: "MERN Stack Developer",
     company_name: "London AppBrewary",
-    icon: logo,
+    icon: developerTools,
     iconBg: "#accbe1",
     date: " 2022",
     points: [
-      "My specialization is in Front-End Development.Attended the London App Brewery, where Dr. Angela Yu was my mentor.My second specialization is in frameworks and Database Management",
+      "My specialization is in MongoDB & Reactjs.Implementing a Model-View-Controller architecture in Express.js to separate concerns and maintain a clean codebase.",
     ],
   },
 ];
 
 export const socialLinks = [
- 
+  /* Add Gmail  */
+
   {
     name: "GitHub",
     iconUrl: github,
@@ -143,7 +199,7 @@ export const projects = [
     link: "https://github.com/AbdulRahumankm/ai-summarize",
   },
   {
-    iconUrl: summiz,
+    iconUrl: docs,
     theme: "btn-back-yellow",
     name: "LiveDocs",
     description:
@@ -151,7 +207,7 @@ export const projects = [
     link: "https://github.com/AbdulRahumankm/livedocs",
   },
   {
-    iconUrl: summiz,
+    iconUrl: expo,
     theme: "btn-back-yellow",
     name: "Auro",
     description:
@@ -159,7 +215,7 @@ export const projects = [
     link: "https://github.com/AbdulRahumankm/auro",
   },
   {
-    iconUrl: summiz,
+    iconUrl: hospital,
     theme: "btn-back-yellow",
     name: "CarePulse",
     description:
