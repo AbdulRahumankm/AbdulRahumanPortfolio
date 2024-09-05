@@ -88,16 +88,33 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Asort Technologies",
+    title: "JP College of Arts & Sciences",
+    company_name: "Bachalor of Computer Applications",
     icon: logo,
     iconBg: "#accbe1",
-    date: "March 2021 - April 2023",
+    date: " 2021 - 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Computer Science Focus: The course focuses on computer applications, software development, and IT skills.Technical Skills: The program emphasizes computer fundamentals, database management, and networking.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "London AppBrewary",
+    icon: logo,
+    iconBg: "#accbe1",
+    date: "2021 - 2022",
+    points: [
+      "My specialization is in Front-End Development.Attended the London App Brewery, where Dr. Angela Yu was my mentor.My second specialization is in frameworks and Database Management",
+    ],
+  },
+  {
+    title: "MERN Stack Developer",
+    company_name: "London AppBrewary",
+    icon: logo,
+    iconBg: "#accbe1",
+    date: " 2022",
+    points: [
+      "My specialization is in Front-End Development.Attended the London App Brewery, where Dr. Angela Yu was my mentor.My second specialization is in frameworks and Database Management",
     ],
   },
 ];
