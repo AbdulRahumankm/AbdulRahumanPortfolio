@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import{ developerTools } from "../assets/icons";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
         to="/"
         className="w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
       >
-        <p className="w-8 h-8 object-contain">AR</p>
+        <img src={developerTools} alt="logo" className="w-8 h-8 object-contain" />
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
