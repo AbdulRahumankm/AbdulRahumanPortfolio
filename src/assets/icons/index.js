@@ -61,5 +61,5 @@ export {
   expo,
   gmail,
   developerTools,
-    instagram,
+  instagram,
 };
