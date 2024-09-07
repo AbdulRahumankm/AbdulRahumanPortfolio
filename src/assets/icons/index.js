@@ -28,7 +28,7 @@ import hospital from "./hospital.svg";
 import expo from "./expo.svg";
 import gmail from "./gmail.svg";
 import developerTools from "./developerTools.svg";
-import instagram from "./instagram.svg";
+
 
 export {
   css,
@@ -61,5 +61,5 @@ export {
   expo,
   gmail,
   developerTools,
-  instagram,
+  
 };

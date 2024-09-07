@@ -27,7 +27,7 @@ import {
   expo,
   gmail,
   developerTools,
-  instagram,
+  
 } from "../assets/icons";
 
 export const skills = [
@@ -145,7 +145,7 @@ export const skills = [
 export const experiences = [
   {
     title: "JP College of Arts & Sciences",
-    company_name: "Bachalor of Computer Applications",
+    company_name: "Bachelor of Computer Applications",
     icon: developerTools,
     iconBg: "#accbe1",
     date: " 2021 - 2024",
@@ -155,7 +155,7 @@ export const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "London AppBrewary",
+    company_name: "London AppBrewery",
     icon: developerTools,
     iconBg: "#accbe1",
     date: "2021 - 2022",
@@ -165,7 +165,7 @@ export const experiences = [
   },
   {
     title: "MERN Stack Developer",
-    company_name: "London AppBrewary",
+    company_name: "London AppBrewery",
     icon: developerTools,
     iconBg: "#accbe1",
     date: " 2022",
@@ -198,11 +198,11 @@ export const socialLinks = [
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/abdulrahuman1204/",
   },
-  {
+  /* {
     name: "Instagram",
     iconUrl: instagram,
     link: "https://www.instagram.com/rahuman_kmi/",
-  },
+  }, */
 ];
 
 export const projects = [
