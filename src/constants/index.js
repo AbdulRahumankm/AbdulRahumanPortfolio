@@ -27,6 +27,7 @@ import {
    expo,
    gmail,
    developerTools,
+    instagram,
 } from "../assets/icons";
 
 export const skills = [
@@ -172,6 +173,16 @@ export const experiences = [
       "My specialization is in MongoDB & Reactjs.Implementing a Model-View-Controller architecture in Express.js to separate concerns and maintain a clean codebase.",
     ],
   },
+  {
+    title: "Data Structures and Algorithms",
+    company_name: "ZTM Academy",
+    icon: developerTools,
+    iconBg: "#accbe1",
+    date: " 2022",
+    points: [
+      "Data Structures and Algorithms (DSA) involve learning how data can be organized, stored, and manipulated efficiently, and how algorithms are used to solve computational problems. It covers topics like arrays, linked lists, trees, graphs, sorting, searching, and more, helping you write optimized and scalable code.",
+    ],
+  },
 ];
 
 export const socialLinks = [
@@ -186,6 +197,11 @@ export const socialLinks = [
     name: "LinkedIn",
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/abdulrahuman1204/",
+  },
+  {
+    name: "Instagram",
+    iconUrl: instagram,
+    link: "https://www.instagram.com/rahuman_kmi/",
   },
 ];
 
